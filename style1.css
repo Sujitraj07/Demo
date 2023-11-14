@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(home-office.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.dash{
+    align-items: center;
+    float: right;
+    height: 600px; 
+    width: 800px;  
+    
+}
+.dash table{
+    border-spacing: 30px;
+}
+.dash table tr td{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    padding: 0 10px;
+    color: white;
+}
+.d1{
+    background-color: rgb(241, 26, 206);
+    
+}
+.d2{
+    background-color: khaki;
+}
+.d3{
+    background-color: rgb(236, 11, 236);
+}
+.d4{
+    background-color: yellowgreen;
+}
+.d5{
+    background-color: transparent;
+}
+.d6{
+    background-color: rgb(22, 223, 223);
+}
+.d7{
+    background-color: rgb(255, 17, 77);
+}
+.d8{
+    background-color: rgb(231, 209, 9);
+}
+.d9{
+    background-color: transparent;
+}
+.d10{
+    background-color: transparent;
+}
+.d11{
+    background-color: rgb(49, 99, 236);
+}
+.d12{
+    background-color: rgb(243, 92, 185);
+}
+.dashmenu{
+    background-color: cadetblue;
+    color: white;
+    border: 2px solid aqua;
+    width: 300px;
+}
+
+.dashmenu table tr{
+    background-color: cadetblue;
+}
+.dashmenu table tr td{
+    padding: 15px 15px;
+    
+   
+}
+.dm7{
+    background-color: rgb(248, 96, 121);
+}
+.dm8{
+    background-color: rgb(45, 194, 181);
+}
+.dm1{
+    padding: 10px 10px;
+    width: 20px;
+    text-align: center;
+    background-color: rgb(49, 99, 236);
+    
+}
+.dm2{
+    width: 280px;
+    text-align: left;
+    background-color: rgb(49, 99, 236);
+}
+.dm3{
+    background-color: rgb(49, 99, 236);
+}
+
+/*login start*/
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(admin-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    height: 480px;
+    width: 380px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+    
+}
+.toggle-btn{
+    padding: 10px 30px;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    position: relative;
+    width: 100px;
+    border-radius: 30px;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+     
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+}
+.admin button{
+    display: flex;
+}
+/*login end*/

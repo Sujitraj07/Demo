@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+   
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0 ,0, 0, 0.4), rgba(0,0,0,0.4),url(home-office.jpg));
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.header{
+    background-color:dodgerblue ;
+  
+    
+}
+.header ul{
+    margin-top: 10px;
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    
+}
+.header ul img{
+    margin-right: 15px;
+}
+.header ul h1{
+    margin-right: 300px;
+}
+.header ul li{
+    width: 70px;
+   line-height: 15px;
+    padding: 15px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header2{
+    text-align: center;
+    margin-left: 100px;
+}
+.header2 tr td{
+        padding: 50px;
+        
+}
+.header2 tr td img{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*grocery style starting */
+.grocery tr td{
+    padding: 30px;
+}
+.grocery tr td img{
+    width: 150px;
+    height: 200px;
+}
+.offer{
+    color: green;
+}
+/*grocery style ending */
+
+.login{
+    background: slategrey;
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 70px;
+    color: white;
+}
+.login h1{
+    margin-top: 30px;
+}
+.login input{
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.login-btn{
+    padding: 12px;
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 7px;
+    background: gold;
+    color: white;
+
+}
+.login p{
+    margin-top: 20px;
+}
+
+
+/*login page editing ending*/
+
+/* start front lool*/
+.front{
+    margin-top: 70px;
+    text-align: center;
+    margin-right: 100px;
+    
+    padding: 40px;
+}
+.headline{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.f1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.front table{
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.front table tr td{
+    margin-top: 40px;
+    margin: 20px;
+}
+.front table tr td img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+/* endding front lool*/
+
+/* admin design start*/
+
+.admin{
+    background: transparent;
+    width: 400px;
+    height: 400px;
+    float:right;
+    margin-top: 70px;
+    margin-right: 450px;
+    color: rgb(29, 26, 26);
+    border: 2px solid rgb(14, 226, 233);
+}
+.admin h1{
+    margin-top: 30px;
+}
+.admin input{
+    width: 300px;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+}
+.admin button{
+    padding: 12px;
+    width: 250px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 7px;
+    background: rgb(12, 238, 189);
+    color: white;
+    border-radius: 30px;
+
+}
+.admin p{
+    margin-top: 20px;
+}
+
+/* admin design endding*/
+
+/* admin signup design start*/
+.admin-signup{
+    background: transparent;
+    width: 400px;
+    height: 650px;
+    float:right;
+    margin-top: 70px;
+    margin-right: 450px;
+    color: rgb(29, 26, 26);
+    border: 2px solid rgb(229, 233, 14);
+}
+.admin-signup h1{
+    margin-top: 30px;
+}
+.admin-signup input{
+    width: 300px;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+}
+.admin-signup button{
+    padding: 12px;
+    width: 250px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 7px;
+    background: rgb(12, 185, 238);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.admin-signup button:hover{
+    background: teal;
+}
+
+
+/* admin signup design endding*/
+
+/*pricing design start*/
+.pricing table tr td{
+    padding: 20px;
+    align-items: center;
+    
+}
+.pricing table tr{
+    margin-left: 30px;
+}
+.red{
+    color: crimson;
+}
+.pricing table tr td img{
+    height: 250px;
+    width: 200px;
+}
+/*pricing design end*/
+
+/*deshboard start*/
+
+/*deshboard end*/
